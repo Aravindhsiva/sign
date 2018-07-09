@@ -1,0 +1,56 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link type="text/css" href="style.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="icon" href="logo.jpg" type="image/jpg">
+        <title>Sign Up</title>
+    </head>
+<body>  
+    <section class="sign">
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#" onclick="home()">TravelGuru</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="https://aravindhsiva.github.io/tour/">Home</a></li>
+        <li><a href="https://aravindhsiva.github.io/tour/places.html">Places</a></li>
+        <li><a href="https://aravindhsiva.github.io/tour/pack.html" onclick="func()">Packages</a></li> 
+        <li><a href="https://aravindhsiva.github.io/page.html">Contact</a></li> 
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li onclick="try()"><a href="https://aravindhsiva.github.io/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <div class="container text-center">
+        <form method="post" name="login" action="http://www.javatpoint.com/javascriptpages/valid.jsp" onsubmit="return validateform()">
+            <br>
+            <img src="https://cdn4.iconfinder.com/data/icons/material-design-content-icons/512/add-circle-512.png" width="30%;">
+            <h3>SignUp</h3>
+            <hr>
+            <b><p>Username :</p></b><input type="text" name="email" placeholder="Your UserName" id="name">
+            <br><br>
+            <b><p>Name :</p></b><input type="text" name="email" placeholder="Your Name" id="name">
+            <br><br>
+            <b><p>Password:</p></b><input type="password" name="password" placeholder="Password" id="pass">
+            <br><br>
+            <p><button type="submit" id="button" onclick="func()">Sign Up <span class="glyphicon glyphicon-chevron-right"></span></button></p>
+        </form>
+        <button id="light" style="border:2px solid white;">Light</button>
+        <button id="dark" style="border:2px solid white;">Dark</button>
+    </div>
+
+    </section>
+    </body>
+</html>

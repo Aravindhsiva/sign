@@ -1,0 +1,58 @@
+*{
+    font-family: sans-serif;
+    font-family: 'Comfortaa', cursive;
+    
+}
+.container{
+    color: black;
+    background-color: white;
+    width:20%;
+    border:2px solid black;
+    height: 80%;
+    border-radius: 3%;
+}
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0,0.7)),
+                rgba(0,0,0,1) url("https://raw.githubusercontent.com/Aravindhsiva/mail/master/assests/back.jpg") no-repeat center;
+            background-size: cover;
+}
+#button{
+    font-size: 18px;
+    background-color: white;
+    border:2px solid black;
+    font-weight: bolder;
+    padding: 5px;
+}
+#button:hover{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+    transition-duration: 0.7s;
+}
+#light,#dark{
+    font-size: 14px;
+    background-color: black;
+    border:2px solid black;
+    font-weight: bolder;
+    padding: 5px;
+    color: white;
+}
+#light:hover,#dark:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    transition-duration: 0.7s;
+}
+#name,#pass{
+    margin-left: 7%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight:500;
+}
+#submit{
+    margin-left: 30%;
+}
+::placeholder{
+    color: black;
+}
